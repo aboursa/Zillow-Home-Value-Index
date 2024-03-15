@@ -26,6 +26,10 @@ This is a test project. I am using Zillow Home Value Index data (ZHVI) to test o
 
 The raw, downloadable data includes the geographic information and the Zillow Home Value Index reporting date (hereafter referred to as *ZHVI*) going back historically to 2000, where the ZHVI is reported on monhtly basis for the each geographical region. Each data set used was exported by the number of bedrooms (1, 2,... up to 5+), so I started this project with five separate data sets and I chose to drill down to the metro geographical level. The raw, downloadable data sets are in a wide format.
 
-## Data Transformation
+## Data Transformation and Tools Used
 
-A majority of the data transformation was done using SQL in PgAdmin. The script is included in this repository and explains what steps were taken to transform the data to prepare it for visualization in Tableau. Since I used Tableau Public, I wasn't able to connect Tableau to a SQL database, so instead I exported the data into a .csv file to upload to Tableau. 
+**Excel:** The data sets were trimmed down to only include the last month's ZHVI of each year from 2019 through 2023 in Excel, as it wasn't necessary to analyze anything beyond a five-year scope for the purpose of the test project this project. The raw data set had column headers that began with numbers (dates for the ZHVIs), so I altered them to make things easier to upload to PgAdmin. It was quicker to do it in Excel vs changing the column headers when uploading to PgAdmin.
+
+**SQL:** A majority of the data transformation was done using SQL in PgAdmin. The script is included in this repository and explains what steps were taken to transform the data to prepare it for visualization in Tableau. Since I used Tableau Public, I wasn't able to connect Tableau to a SQL database, so instead I exported the data into a .csv file to upload to Tableau. 
+
+**Tableau:** Performed couple of additional calculations with the combined data set in Tableau to create long data. The data source includes metros from all states, but the visualizations and dashboard are filtered to only show select states and their various metros. The dashboard isn't intended to look super aesthetically pleasing for now, rather, I just wanted to publish the various types of visualizations that would reveal some insights about the housing market (depending on the context and hypothetical business question).
