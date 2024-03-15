@@ -37,7 +37,7 @@ The raw, downloadable data includes the geographic information and the Zillow Ho
 ## General, High-Level Findings
 
 The following states were visualized (East and West coast, plus Colorado):  
-\* CA  
+\- CA  
 \* CO  
 \* CT  
 \* DE  
