@@ -24,4 +24,8 @@ This is a test project. I am using Zillow Home Value Index data (ZHVI) to test o
 
 ## The Data
 
-The raw, downloadable data includes the geographic information and the Zillow Home Value Index reporting date (hereafter referred to as *ZHVI*) going back historically to 2000, where the ZHVI is reported on monhtly basis for the each geographical region.. Each data set used was exported by the number of bedrooms (1, 2,... up to 5+), so I started this project with five separate data sets and I chose to drill down to the metro geographical level.
+The raw, downloadable data includes the geographic information and the Zillow Home Value Index reporting date (hereafter referred to as *ZHVI*) going back historically to 2000, where the ZHVI is reported on monhtly basis for the each geographical region. Each data set used was exported by the number of bedrooms (1, 2,... up to 5+), so I started this project with five separate data sets and I chose to drill down to the metro geographical level. The raw, downloadable data sets are in a wide format.
+
+## Data Transformation
+
+A majority of the data transformation was done using SQL in PgAdmin. The script is included in this repository and explains what steps were taken to transform the data to prepare it for visualization in Tableau. Since I used Tableau Public, I wasn't able to connect Tableau to a SQL database, so instead I exported the data into a .csv file to upload to Tableau. 
