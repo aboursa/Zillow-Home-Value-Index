@@ -33,3 +33,22 @@ The raw, downloadable data includes the geographic information and the Zillow Ho
 **SQL:** A majority of the data transformation was done using SQL in PgAdmin. The script is included in this repository and explains what steps were taken to transform the data to prepare it for visualization in Tableau. Since I used Tableau Public, I wasn't able to connect Tableau to a SQL database, so instead I exported the data into a .csv file to upload to Tableau. 
 
 **Tableau:** Performed couple of additional calculations with the combined data set in Tableau to create long data. The data source includes metros from all states, but the visualizations and dashboard are filtered to only show select states and their various metros. The dashboard isn't intended to look super aesthetically pleasing for now, rather, I just wanted to publish the various types of visualizations that would reveal some insights about the housing market (depending on the context and hypothetical business question).
+
+## General, High-Level Findings
+
+The following states were visualized:  
+\* CA 
+\* CO 
+\* CT 
+\* DE 
+\* MA 
+\* MD 
+\* ME 
+\* NH 
+\* NJ 
+\* NY 
+\* OR 
+\* RI 
+\* VA 
+\* VT 
+\* WA
