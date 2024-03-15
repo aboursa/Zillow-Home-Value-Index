@@ -21,3 +21,7 @@ This is a test project. I am using Zillow Home Value Index data (ZHVI) to test o
 ## How it Works
 
 *The Zillow Home Value Index (ZHVI) is designed to capture the value of a typical property across the nation or the neighborhood, not just the homes that sold, and we do so by drawing information from the full distribution of homes in a given region. For a more in-depth explanation of the ZHVI methodology, click [here.](https://www.zillow.com/research/methodology-neural-zhvi-32128/)*
+
+## The Data
+
+The raw, downloadable data includes the geographic information and the Zillow Home Value Index reporting date (hereafter referred to as *ZHVI*) going back historically to 2000, where the ZHVI is reported on monhtly basis for the each geographical region.. Each data set used was exported by the number of bedrooms (1, 2,... up to 5+), so I started this project with five separate data sets and I chose to drill down to the metro geographical level.
