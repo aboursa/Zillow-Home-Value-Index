@@ -38,17 +38,17 @@ The raw, downloadable data includes the geographic information and the Zillow Ho
 
 The following states were visualized (East and West coast, plus Colorado):  
 \- CA  
-\* CO  
-\* CT  
-\* DE  
-\* MA  
-\* MD  
-\* ME  
-\* NH  
-\* NJ  
-\* NY  
-\* OR  
-\* RI  
-\* VA  
-\* VT  
-\* WA 
+\- CO  
+\- CT  
+\- DE  
+\- MA  
+\- MD  
+\- ME  
+\- NH  
+\- NJ  
+\- NY  
+\- OR  
+\- RI  
+\- VA  
+\- VT  
+\- WA 
