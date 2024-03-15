@@ -36,7 +36,7 @@ The raw, downloadable data includes the geographic information and the Zillow Ho
 
 ## General, High-Level Findings
 
-The following states were visualized (East and West coast, plus Colorado):  
+The following states were filtered for and visualized (East and West coast, plus Colorado):  
 \- CA  
 \- CO  
 \- CT  
@@ -51,4 +51,8 @@ The following states were visualized (East and West coast, plus Colorado):
 \- RI  
 \- VA  
 \- VT  
-\- WA 
+\- WA  
+
+\* California had the highest median ZHVI in 2023, with the city of San Jose having the highest index at $1.4M  
+\* However, the highest (max) ZHVI in 2023 was in Glenwood Springs, CO  
+\* To be continued...
