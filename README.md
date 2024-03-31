@@ -1,9 +1,9 @@
 # Zillow-Home-Value-Index
-Test using Zillow Home Value Index data for data cleaning and visualization practice
+Used Zillow Home Value Index data for data cleaning and visualization
 
 ## Overview
 
-This is a test project. I am using Zillow Home Value Index data (ZHVI) to test out various visualization options at a state and metro level on a Q4 annual basis between 2019 -2023. The data used can be found [here](https://www.zillow.com/research/data/) through Zillow research's Housing Data portal. I will visualize and uncover trends, patterns, and insights from the data (this may be working a little backwards here, but I'm simply playing around with the data, more so for the purposes of testing out visualization tools and practicing documenting my process rather than answering a business question for now).
+I am using Zillow Home Value Index data (ZHVI) to visualize home values at a state and metro level on a Q4 annual basis between 2019 -2023. The data used can be found [here](https://www.zillow.com/research/data/) through Zillow research's Housing Data portal. I will be cleaning, transforming, and visualizing the data.
 
 
 ## What is Zillow Housing research, and what is the Zillow Home Value Index (ZHVI)
@@ -28,31 +28,8 @@ The raw, downloadable data includes the geographic information and the Zillow Ho
 
 ## Data Transformation and Tools Used
 
-**Excel:** The data sets were trimmed down to only include the last month's ZHVI of each year from 2019 through 2023 in Excel, as it wasn't necessary to analyze anything beyond a five-year scope for the purpose of the test project this project. The raw data set had column headers that began with numbers (dates for the ZHVIs), so I altered them to make things easier to upload to PgAdmin. It was quicker to do it in Excel vs changing the column headers when uploading to PgAdmin.
+**Excel:** The data sets were trimmed down to only include the last month's ZHVI of each year from 2019 through 2023 in Excel, as it wasn't necessary to analyze anything beyond a five-year scope for the purpose of this project. The raw data set had column headers that began with numbers (dates for the ZHVIs), so I altered them to make things easier to upload to PgAdmin. It was quicker to do it in Excel vs changing the column headers when uploading to PgAdmin.
 
 **SQL:** A majority of the data transformation was done using SQL in PgAdmin. The script is included in this repository and explains what steps were taken to transform the data to prepare it for visualization in Tableau. Since I used Tableau Public, I wasn't able to connect Tableau to a SQL database, so instead I exported the data into a .csv file to upload to Tableau. 
 
-**Tableau:** Performed couple of additional calculations with the combined data set in Tableau to create long data. The data source includes metros from all states, but the visualizations and dashboard are filtered to only show select states and their various metros. The dashboard isn't intended to look super aesthetically pleasing for now, rather, I just wanted to publish the various types of visualizations that would reveal some insights about the housing market (depending on the context and hypothetical business question).
-
-## General, High-Level Findings
-
-The following states were filtered for and visualized (East and West coast, plus Colorado):  
-\- CA  
-\- CO  
-\- CT  
-\- DE  
-\- MA  
-\- MD  
-\- ME  
-\- NH  
-\- NJ  
-\- NY  
-\- OR  
-\- RI  
-\- VA  
-\- VT  
-\- WA  
-
-\* California had the highest median ZHVI in 2023, with the city of San Jose having the highest index at $1.4M  
-\* However, the highest (max) ZHVI in 2023 was in Glenwood Springs, CO  
-\* To be continued...
+**Tableau:** Performed couple of additional calculations with the combined data set in Tableau to create long data. The data source includes metros from all states, but the visualizations and dashboard are filtered to only show select states and their various metros.
